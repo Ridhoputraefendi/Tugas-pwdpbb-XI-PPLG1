@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Tabel dalam Div</title>
+    <style>
+        .kotak-tabel {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            background-color: #f0f8ff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        caption {
+            caption-side: top;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak-tabel">
+        <table>
+            <caption>Data Siswa</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Nilai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ali</td>
+                    <td>PPLG1</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Septian</td>
+                    <td>AKL2</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cinta</td>
+                    <td>PMS1</td>
+                    <td>95</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
